@@ -1,6 +1,6 @@
 # Dashboard-UI
 
-## Dashboard-UI
+## Tech stack
 
 **languages:** HTML, CSS & JavaScript
 
