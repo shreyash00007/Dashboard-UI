@@ -1,10 +1,10 @@
-/* Google Font Import - Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 :root {
@@ -13,7 +13,7 @@
   --sidebar-color: #fff;
   --primary-color: #695cfe;
   --primary-color-light: #f6f5ff;
-  --toggle-color: #ddd;
+  --toggle-color: #f9f9f9;
   --text-color: #707070;
 
   /* ====== Transition ====== */
@@ -397,7 +397,7 @@ body.dark .switch::before {
 .main-datas {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 3rem;
   padding-top: 1rem;
   padding-left: 2rem;
   margin-bottom: 1rem;
@@ -412,4 +412,127 @@ body.dark .switch::before {
 .main-text {
   color: var(--text-color);
   padding-bottom: 0.5rem;
+}
+/* Charts */
+#chart {
+  max-width: 500px;
+}
+#chart-1 {
+  max-width: 120px;
+}
+#chart-2 {
+  max-width: 120px;
+}
+#chart-3 {
+  max-width: 120px;
+}
+.compare-container {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.compare-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.compare-sub-heading {
+  color: var(--text-color);
+}
+.compare-data {
+  padding-top: 10px;
+  width: 150px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.compare-data-n {
+  width: 150px;
+  padding-bottom: 10px;
+}
+.btn-select {
+  color: var(--text-color);
+  border: none;
+}
+.round-chart {
+  display: flex;
+  flex-direction: row;
+}
+.data-chart {
+  display: flex;
+}
+/* Side */
+.side {
+  position: absolute;
+  top: 0;
+  top: 0;
+  left: 1100px;
+  height: 100vh;
+  width: calc(100% - 250px);
+  background-color: var(--sidebar-color);
+  transition: var(--tran-03);
+}
+.retirement {
+  margin-top: 2rem;
+  background: var(--toggle-color);
+  border-radius: 10px;
+  padding: 3rem;
+  width: 350px;
+}
+.retirement-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.slider-pc {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.slider-text {
+  font-weight: 500;
+}
+.percentage {
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.retirement-slider {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.retirement-pc {
+  padding: 0.5rem 0 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+.btn-links {
+  display: flex;
+  padding-top: 1rem;
+  gap: 1.5rem;
+  flex-direction: column;
+  text-align: center;
+}
+.btn-link {
+  background: var(--primary-color);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  color: var(--primary-color-light);
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+/* questions */
+.questions {
+  margin: 2rem;
+  padding: 1rem;
+  border-left: 1px solid #695cfe;
+}
+.quest-head {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.quest-sub-head {
+  color: var(--text-color);
 }

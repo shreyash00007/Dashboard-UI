@@ -91,7 +91,7 @@
       <div class="profile">
         <img class="profile-img" src="./img/pfp.jpg" alt="pfp" />
         <div class="profile-text">
-          <div class="profile-name">Hi Nick,</div>
+          <div class="profile-name">Hi Mike,</div>
           <div class="profile-greet">Welcome, back</div>
         </div>
       </div>
@@ -147,8 +147,82 @@
           <div class="main-text">Est. Montly Income</div>
         </div>
       </div>
-    </section>
+      <div id="chart"></div>
+      <div class="compare">
+        <div class="compare-container">
+          <div class="compare-text">
+            <div class="compare-heading">How to I compare to my peers?</div>
+            <div class="compare-sub-heading">
+              These number represent current goal achivement
+            </div>
+            <div class="data-chart">
+              <div class="compare-data-text">
+                <div class="compare-data">
+                  Age:
+                  <select class="btn-select" name="age" id="">
+                    <option value="Under 30">Under 30</option>
+                  </select>
+                </div>
+                <div class="compare-data">
+                  Salary:
+                  <select class="btn-select" name="salary" id="">
+                    <option value="K-20-K-30">K-20-K-30</option>
+                  </select>
+                </div>
+                <div class="compare-data-n">
+                  Gender:
+                  <select class="btn-select" name="Gender" id="">
+                    <option value="male">Male</option>
+                  </select>
+                </div>
+              </div>
 
+              <div class="round-chart">
+                <div id="chart-1"></div>
+                <div id="chart-2"></div>
+                <div id="chart-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="side">
+      <div class="retirement">
+        <div class="retirement-heading">Retirement Strategy</div>
+        <div class="retirement-slider">
+          <div class="slider-text">Employee Contribution</div>
+          <div class="slider-pc">
+            <input type="range" />
+            <div class="percentage">12%</div>
+          </div>
+          <div class="slider-text">Retirement Age</div>
+          <div class="slider-pc">
+            <input type="range" />
+            <div class="percentage">12%</div>
+          </div>
+        </div>
+        <div class="retirement-pc">
+          <div class="title-pc">Employer Contribution</div>
+          <div class="pc">8.4%</div>
+        </div>
+        <div class="retirement-pc">
+          <div class="title-pc">Interest Rate</div>
+          <div class="pc">5%</div>
+        </div>
+        <div class="btn-links">
+          <a href="#" class="btn-link">Update</a>
+          <a href="#" class="link">View Help Docs ></a>
+        </div>
+      </div>
+      <div class="questions">
+        <div class="quest-title">Are you considering a</div>
+        <div class="quest-head">Housing Advance?</div>
+        <div class="quest-sub-head">Limited time reduced interest</div>
+        <a href="#" class="link">Learn more ></a>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="script.js"></script>
   </body>
 </html>
