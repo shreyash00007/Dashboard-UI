@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Roboto Slab", serif;
 }
-
+/* color variable */
 :root {
   /* ===== Colors ===== */
   --body-color: #e4e9f7;
