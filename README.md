@@ -9,3 +9,5 @@
 **For Icons:** Boxicons
 
 **For charts:** Apex Charts
+
+![site_preview](./img/site_preview.JPG)
