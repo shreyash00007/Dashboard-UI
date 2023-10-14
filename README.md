@@ -4,10 +4,12 @@
 
 **languages:** HTML, CSS & JavaScript
 
-**CSS Framework:** No Css framework is used.
-
 **For Icons:** Boxicons
 
 **For charts:** Apex Charts
+
+**CSS Framework:** No Css framework is used.
+
+## Dashboard Preview
 
 ![site_preview](./img/site_preview.JPG)
